@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .icon-title{
+        @apply h-6 w-6 fill-current text-white hover:text-hover-icon;
+    }
+}

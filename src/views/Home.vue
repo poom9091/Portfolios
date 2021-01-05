@@ -1,10 +1,13 @@
 <template>
-  <div class="w-screen h-screen  bg-darkblue-cos ">
-    <div class="flex flex-wrap pt-20">
-      <Title  class="ml-10 md:ml-20 h-60" />
-       
+  <div class="grid">
+    <Title class="bg-darkblue-cos" />
+    
+    
+    
       
-    </div>
+      
+      
+  
     
   </div>
 </template>
@@ -13,10 +16,12 @@
 // @ is an alias to /src
 import Title from '@/components/title.vue'
 
+// import Manu from '@/components/Manu.vue'
 export default {
   name: 'Home',
   components: {
-    Title
+    Title,
+    // Manu
   }
 }
 </script>

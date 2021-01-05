@@ -1,13 +1,15 @@
 <template>
-<transition name ="slide-fade">
-    <div v-if="show" >
-        <p class=" text-yellow-cos font-mono text-2xl ">Hello, my name is </p>
-        <h1  class=" text-gray-cos text-7xl font-black mt-5 mb-4 ">Pubadee Klinocha</h1>
-        <p class="text-yellow-cos font-mono text-lg tracking-tighter leading-6"> I'm studying at King Mongkut's University of Technology North Bangkok
-            <br>in Information Technology  
-        </p> 
-    </div>
-</transition>
+<div class=" p-24 md:p-60">
+    <transition name ="slide-fade" >
+        <div v-if="show" >
+            <p class=" text-yellow-cos font-mono text-2xl ">Hello, my name is </p>
+            <h1  class=" text-gray-cos text-7xl font-black mt-5 mb-4 ">Pubadee Klinocha</h1>
+            <p class="text-yellow-cos font-mono text-lg tracking-tighter leading-6"> I'm studying at King Mongkut's University of Technology North Bangkok
+                <br>in Information Technology  
+            </p> 
+        </div>
+    </transition>
+</div>
 </template>
 
 <script>

@@ -4,6 +4,16 @@
 
 @layer components {
     .icon-title{
-        @apply h-6 w-6 fill-current text-white hover:text-hover-icon;
+        @apply h-6 w-6 fill-current text-yellow-cos hover:text-hover-icon;
+    },
+    .icon-menu{
+        @apply h-36 w-36 fill-current text-yellow-cos ;
+    },
+    .font-menu{
+        @apply  text-yellow-cos font-extrabold text-xl  hover:text-hover-icon;
     }
+    .button-menu{
+        @apply flex items-start hover:bg-yellow-cos font-menu p-2 h-2/6 ; 
+    }
+    
 }

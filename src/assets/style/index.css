@@ -6,14 +6,20 @@
     .icon-title{
         @apply h-6 w-6 fill-current text-yellow-cos hover:text-hover-icon;
     },
-    .icon-menu{
-        @apply h-36 w-36 fill-current text-yellow-cos ;
-    },
     .font-menu{
         @apply  text-yellow-cos font-extrabold text-xl  hover:text-hover-icon;
     }
     .button-menu{
         @apply flex items-start hover:bg-yellow-cos font-menu p-2 h-2/6 ; 
+    }
+    .hover-Navbar{
+        @apply transition duration-500 ease-in-out transform hover:-translate-x-3 hover:scale-x-115;
+    }
+    .hover-navbar-icon{
+        @apply transition duration-500 ease-in-out transform hover:scale-115 ;
+    }
+    .icon-size-nav{
+        @apply h-8 w-8 md:h-12 md:w-12;
     }
     
 }

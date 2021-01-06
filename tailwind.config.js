@@ -11,6 +11,9 @@ module.exports = {
         'white-cos':'#ffffff',   
         'hover-icon':'#2C3E50'
       }
+    },
+    scale:{
+      '115':'1.15'
     }
   },
   variants: {

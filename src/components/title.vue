@@ -1,5 +1,5 @@
 <template>
-<div class=" p-24 md:p-60">
+<div class=" py-24 px-4 sm:p-60">
     <transition name ="slide-fade" >
         <div v-if="show" >
             <p class=" text-yellow-cos font-mono text-2xl ">Hello, my name is </p>

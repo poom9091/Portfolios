@@ -1,6 +1,6 @@
 <template>
-<div class=" py-24 px-4 sm:p-60">
-    <transition name ="slide-fade" >
+<div class="py-24 px-4 sm:p-60" >
+    <transition name ="slide-fade " >
         <div v-if="show" >
             <p class=" text-yellow-cos font-mono text-2xl ">Hello, my name is </p>
             <h1  class=" text-gray-cos text-7xl font-black mt-5 mb-4 ">Pubadee Klinocha</h1>

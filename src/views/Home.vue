@@ -1,6 +1,7 @@
 <template>
   <div class="grid">
-    <Title class="bg-darkblue-cos" />
+    <Title class="bg-darkblue-cos " />
+    <ActEx ></ActEx>
     
     
     
@@ -15,13 +16,13 @@
 <script>
 // @ is an alias to /src
 import Title from '@/components/title.vue'
+import ActEx from '@/components/Act&Ex.vue'
 
-// import Manu from '@/components/Manu.vue'
 export default {
   name: 'Home',
   components: {
     Title,
-    // Manu
+    ActEx
   }
 }
 </script>

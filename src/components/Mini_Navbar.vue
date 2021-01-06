@@ -30,8 +30,7 @@
                 </svg>
             </button>
 
-            
-        
+  
             <button>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class=" text-darkblue-cos icon-size-nav">
                     <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
@@ -72,16 +71,4 @@ export default {
     transform: translateX(0);
   }
 }
-
-/* .slideAni-enter-active {
-  transition:  .3s ease;
-}
-.slideAni-leave-active {
-  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-}
-.slideAni-enter, .slideAni-leave-to {
-  transform: translateX(10px);
-  opacity: 0;
-} */
-
 </style>

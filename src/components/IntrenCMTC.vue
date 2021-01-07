@@ -1,7 +1,7 @@
 <template>
   <div class="">
       <div class= "h1">
-                    Intern at Chiangmai Technical College <br> in Information Technology
+                    Intern at Chiangmai Technical College  in Information Technology
         </div>
       
   </div>

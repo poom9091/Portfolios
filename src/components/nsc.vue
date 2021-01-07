@@ -7,14 +7,8 @@
             
             <div class="flex  content-start justify-center  lg:px-10  ">
                 <hooper class=" md:w-96 md:h-80  w-80  shadow-lg  " :autoPlay="true" :playSpeed="2000" :infiniteScroll="true" >
-                    <slide>
-                    <img src="../assets/NSC_1.jpg" class=" w-full h-full rounded-lg "/>
-                    </slide>
-                    <slide>
-                        <img src="../assets/NSC_2.jpg" class=" w-full h-full rounded-lg "/>
-                    </slide>
-                    <slide>
-                        <img src="../assets/NSC_3.jpg" class="w-full h-full rounded-lg "/>
+                    <slide v-for="limg in list_imgs" :key="limg.id" >
+                        <img :src="limg.img"  class=" w-full h-full rounded-lg "/>
                     </slide>
                     <hooper-navigation slot="hooper-addons"></hooper-navigation>
                 </hooper>
@@ -46,7 +40,12 @@ import 'hooper/dist/hooper.css';
 export default {
     data(){
         return{
-            gitNSC :'https://github.com/poom9091/NSC_medicine-cabinet-use-RFID-scanning'
+            gitNSC :'https://github.com/poom9091/NSC_medicine-cabinet-use-RFID-scanning',
+            list_imgs:[
+                {img:require('../assets/NSC/NSC_1.jpg')},
+                {img:require('../assets/NSC/NSC_2.jpg')},
+                {img:require('../assets/NSC/NSC_3.jpg')}
+            ]
         }
     },
     components:{

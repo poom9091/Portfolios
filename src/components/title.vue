@@ -1,11 +1,11 @@
 <template>
-<div class="py-24 px-4 sm:p-60" >
+<div class="" >
     <transition name ="slide-fade " >
         <div v-if="show" >
-            <p class=" text-yellow-cos font-mono text-2xl ">Hello, my name is </p>
-            <h1  class=" text-gray-cos text-7xl font-black mt-5 mb-4 ">Pubadee Klinocha</h1>
-            <p class="text-yellow-cos font-mono text-lg tracking-tighter leading-6"> I'm studying at King Mongkut's University of Technology North Bangkok
-                <br>in Information Technology  
+            <p class=" text-yellow-cos font-mono text-2xl md:text-3xl ">Hello, my name is </p>
+            <h1  class=" text-gray-cos text-7xl font-black mt-5 mb-4  ">Pubadee <br class="md:hidden">Klinocha</h1>
+            <p class="text-yellow-cos font-mono text-xl tracking-tighter leading-6 md:text-2xl"> I'm 3rd year studying at King Mongkut's University of 
+                <br class="sm:hidden"> Technology North Bangkok in Information Technology  
             </p> 
         </div>
     </transition>
@@ -37,4 +37,5 @@ export default {
         transform: translateX(10px);
         opacity: 0;
     }
+  
 </style>

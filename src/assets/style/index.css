@@ -21,5 +21,11 @@
     .icon-size-nav{
         @apply h-8 w-8 md:h-12 md:w-12;
     }
+    .button_link{
+        @apply fill-current text-gray-cos  hover:text-darkblue-cos w-auto bg-darkblue-cos  h-auto  rounded-lg shadow-md space-x-4  hover:bg-yellow-cos;
+    }
+    .button-link-transition{
+        @apply  transition duration-500 ease-in-out ;
+    }
     
 }

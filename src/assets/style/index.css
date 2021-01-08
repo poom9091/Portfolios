@@ -13,7 +13,7 @@
         @apply flex items-start hover:bg-yellow-cos font-menu p-2 h-2/6 ; 
     }
     .hover-Navbar{
-        @apply transition duration-500 ease-in-out transform hover:-translate-x-3 hover:scale-x-115;
+        @apply transition duration-500 ease-in-out transform hover:-translate-x-3 hover:scale-x-115 hover:-rotate-90;
     }
     .hover-navbar-icon{
         @apply transition duration-500 ease-in-out transform hover:scale-115 ;
@@ -30,5 +30,6 @@
     .h1{
         @apply text-gray-cos font-semibold  p-3 px-5 text-3xl md:text-4xl text-center lg:text-left border-t-8 border-b-8 border-darkblue-cos
     }
+   
     
 }

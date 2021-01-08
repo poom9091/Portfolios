@@ -1,14 +1,13 @@
 <template>
  <div class="m-5">
 
-  
 
   <transition name="slideAni" >
     <button @click="show = !show" v-if="!show" class="fixed bottom-0 right-0 mb-7 p-1 bg-yellow-cos rounded-l-lg" @>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"  class=" fill-current text-darkblue-cos icon-size-nav ">
         <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" />
       </svg>
-  </button>
+    </button>
 
     <div v-if="show" class="fixed bottom-0 right-0 mb-7 p-1 bg-yellow-cos rounded-l-lg w-4/6 ">
         <div class=" flex flex-row-reverse space-x-8 space-x-reverse">

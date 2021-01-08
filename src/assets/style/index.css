@@ -6,15 +6,18 @@
     .icon-title{
         @apply h-8 w-8 fill-current text-yellow-cos hover:text-gray-cos;
     },
+
     .font-menu{
-        @apply  text-yellow-cos font-extrabold text-xl  hover:text-gray-cos;
+        @apply  text-yellow-cos font-extrabold text-xl hover:text-red-500 transition duration-500 ease-in-out transform hover:scale-115  ;
     }
     .button-menu{
-        @apply flex items-start hover:bg-yellow-cos font-menu p-2 h-2/6 ; 
+        @apply  w-full h-28 transition duration-500 ease-in-out ; 
     }
+
     .hover-Navbar{
-        @apply transition duration-500 ease-in-out transform hover:-translate-x-3 hover:scale-x-115 hover:-rotate-90;
+        @apply transition duration-500 ease-in-out transform    ;
     }
+    
     .hover-navbar-icon{
         @apply transition duration-500 ease-in-out transform hover:scale-115 ;
     }
@@ -22,13 +25,13 @@
         @apply h-8 w-8 md:h-12 md:w-12;
     }
     .button_link{
-        @apply fill-current text-darkblue-cos hover:text-gray-cos bg-gray-cos  hover:bg-darkblue-cos  w-auto  h-auto  rounded-lg shadow-md space-x-4 ;
+        @apply fill-current text-gray-cos hover:text-darkblue-cos  bg-darkblue-cos  hover:bg-yellow-cos  w-auto  h-auto  rounded-lg shadow-md space-x-4 ;
     }
     .button-link-transition{
         @apply  transition duration-500 ease-in-out ;
     }
     .h1{
-        @apply text-gray-cos font-semibold  p-3 px-5 text-3xl md:text-4xl text-center lg:text-left border-t-8 border-b-8 border-darkblue-cos
+        @apply text-darkblue-cos font-semibold  p-3 px-5 text-3xl md:text-4xl text-center lg:text-left border-t-8 border-b-8 border-red-800
     }
    
     

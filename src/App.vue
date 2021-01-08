@@ -1,8 +1,8 @@
 <template>
   <div class="w-full h-full " >
     <HomeButton class="fixed  left-0 top-0 m-5 "/>
-    <Navbar class="fixed right-0 pb-5 invisible sm:visible"/>
-    <MiniNavbar class="fixed right-0 bottom-0 pb-5 visible sm:invisible"/>
+    <Navbar class="fixed right-0 pb-5 invisible sm:visible z-40"/>
+    <MiniNavbar class="fixed right-0 bottom-0 pb-5 visible sm:invisible z-40"/>
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>

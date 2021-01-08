@@ -14,7 +14,7 @@
             </div>
             
             <div class="lg:ml-8 pb-6  flex flex-col items-center lg:items-start">
-                <div v-for="str in texts" :key="str.id" class="text-base md:text-xl font-semi italic  ml-5 text-yellow-cos">
+                <div v-for="str in texts" :key="str.id" class="text-base md:text-xl font-semi italic  ml-5 text-darkblue-cos">
                     {{str}} 
                 </div>
                 

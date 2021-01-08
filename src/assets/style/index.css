@@ -4,10 +4,10 @@
 
 @layer components {
     .icon-title{
-        @apply h-6 w-6 fill-current text-yellow-cos hover:text-hover-icon;
+        @apply h-8 w-8 fill-current text-yellow-cos hover:text-gray-cos;
     },
     .font-menu{
-        @apply  text-yellow-cos font-extrabold text-xl  hover:text-hover-icon;
+        @apply  text-yellow-cos font-extrabold text-xl  hover:text-gray-cos;
     }
     .button-menu{
         @apply flex items-start hover:bg-yellow-cos font-menu p-2 h-2/6 ; 

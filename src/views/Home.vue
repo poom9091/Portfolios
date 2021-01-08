@@ -2,6 +2,7 @@
   <div class="BG">
     <Title class="bg-darkblue-cos flex flex-wrap content-center h-screen w-full pl-7 md:px-40" />
     <ActEx />
+    <contact class=" bg-darkblue-cos py-14 "/>
     
   </div>
 </template>
@@ -10,6 +11,7 @@
 
 import Title from '@/components/title.vue'
 import ActEx from '@/components/Act&Ex.vue'
+import contact from "@/components/contact.vue"
 
 export default {
   name: 'Home',
@@ -20,7 +22,8 @@ export default {
   },
   components: {
     Title,
-    ActEx
+    ActEx,
+    contact
   },
   
 }

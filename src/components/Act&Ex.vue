@@ -2,12 +2,13 @@
   <div class=" mt-10 mb-16 flex  flex-col space-y-9 ">
       <h1 class="text-darkblue-cos text-4xl md:text-5xl font-black  text-center w-full">Activities & Experience</h1>
       <transition name="sildeDowe"  >
-      <div v-if="show_board"  class=" bg-red-800 px-6 md:px-14 max-h-max h-auto py-8 mx-5 lg:mx-24 space-y-9 rounded-3xl shadow-xl">
-        <Board v-bind=NSC />
-        <Board v-bind=Intern />
-      </div>
+        <div v-if="show_board"  class=" bg-red-800 px-6 md:px-14 max-h-max h-auto py-8 mx-5 lg:mx-24 space-y-9 rounded-3xl shadow-xl">
+          <Board v-bind=NSC />
+          <Board v-bind=Intern />
+        </div>
       </transition>
-            
+      
+     
   </div>
 </template>
 
@@ -31,9 +32,6 @@ export default {
             {img:require('../assets/NSC/NSC_3.jpg')}
         ],
         name_buttom:'GitHub',
-        type:'1'
-        
-
       },
       Intern:{
         name : 'Intern at Chiangmai Technical College  in Information Technology',
@@ -45,13 +43,12 @@ export default {
             {img:require('../assets/Intern/Intern_3.jpg')}
         ],
         name_buttom:'YouTube',
-        type:'2'
       },
       
   }
   },
   components:{
-    Board
+    Board,
   },
   mounted(){
     this.show_board=true

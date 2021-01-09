@@ -27,14 +27,19 @@
 
 <script>
 export default {
-data () {
-    return{
-      facebook:'https://www.facebook.com/pubadee.klinocha/',
-      ig: 'https://www.instagram.com/pubadee_nz91/',
-      git: 'https://github.com/poom9091',
-      show:false
-    }
-  },
+    data () {
+        return{
+          facebook:'https://www.facebook.com/pubadee.klinocha/',
+          ig: 'https://www.instagram.com/pubadee_nz91/',
+          git: 'https://github.com/poom9091',
+          show:false
+        }
+      },
+   methods:{
+      toLink(link) {
+      window.location.href = link;
+    },
+   }
 }
 </script>
 

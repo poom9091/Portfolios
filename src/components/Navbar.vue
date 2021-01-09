@@ -1,8 +1,8 @@
 <template>
         <div class=" flex justify-around items-center flex-col h-screen ">
-          <button class="hover-Navbar  button-menu hover-Navbar " v-for="list in lists " :key="list" >
+          <button class="hover-Navbar  button-menu hover-Navbar " v-for="(list,name) in lists " :key="name" @click="toLink(list)" >
             <div class="font-menu transform rotate-90">
-                {{list}}
+                {{name}}
             </div>
           </button>
         </div>
@@ -16,18 +16,17 @@ export default {
       ig: 'https://www.instagram.com/pubadee_nz91/',
       git: 'https://github.com/poom9091',
       show:false,
-      lists:['About Me','Experience','Contact'],
+      lists:{
+        'About Me':'/about',
+        'Experience':'/experience',
+        'Contact':'/contact'
+      },
     }
   },
   methods:{
     toLink(link) {
-      window.location.href = link;
+      this.$router.push(link)
     },
-    hoverOver(index) {
-      if(!index) this.show=false
-      else this.show= true
-      console.log('over');
-    }
   },
   mounted(){
     this.show=true

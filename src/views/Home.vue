@@ -9,9 +9,9 @@
 
 <script>
 
-import Title from '@/components/title.vue'
-import ActEx from '@/components/Act&Ex.vue'
-import contact from "@/components/contact.vue"
+import Title from '@/components/Home/title.vue'
+import ActEx from '@/components/Home/Act&Ex.vue'
+import contact from "@/components/Home/contact.vue"
 
 export default {
   name: 'Home',

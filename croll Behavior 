@@ -1,0 +1,101 @@
+[33mcommit 71e753f444af32976c731d814e758518acaa5afa[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Sun Jan 10 17:21:02 2021 +0700
+
+    created about me
+
+[33mcommit 86c59498b4c6bc75fc5a16b3bba434ae6a05ba81[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Sun Jan 10 12:39:12 2021 +0700
+
+    Edit dir
+
+[33mcommit b99c6764f73005ce898655addfb7d619568837f0[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Sat Jan 9 23:27:59 2021 +0700
+
+    Create about
+
+[33mcommit c2e46065c7b34bbf1920bc322ac622dfddd1c44d[m
+Author: Pubadee Klinocha <poom9091@hotmail.com>
+Date:   Sat Jan 9 02:54:58 2021 +0700
+
+    Edit UI
+
+[33mcommit da68b95c0426c509913255a82af5bd087ecd5a81[m
+Author: Pubadee Klinocha <poom9091@hotmail.com>
+Date:   Fri Jan 8 17:27:03 2021 +0700
+
+    create Contact
+
+[33mcommit 47d3a3c6289feffce8a5d3c0ff62429dfe24b03d[m
+Author: Pubadee Klinocha <poom9091@hotmail.com>
+Date:   Fri Jan 8 16:52:04 2021 +0700
+
+    add animation on board
+
+[33mcommit 9f8b48161e437f0f8749d9e1bae1c4d52dd99557[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Fri Jan 8 02:42:57 2021 +0700
+
+    add Intern CMTC
+
+[33mcommit 2bd6c6a6f05bc4c3c1121b0840bf380e568a0f48[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Fri Jan 8 01:23:27 2021 +0700
+
+    test
+
+[33mcommit c4adc361f783303f8648ec3bbc5ab0160491eb5d[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Thu Jan 7 22:31:06 2021 +0700
+
+    Create IntrenCMTC
+
+[33mcommit 87c89965bded51f90f4b0ed47fbf0781d1c20365[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Thu Jan 7 17:50:15 2021 +0700
+
+    Complete NSC
+
+[33mcommit 7b46d82e1fe135e4d1882158550f0cd44cb751b9[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Wed Jan 6 23:49:06 2021 +0700
+
+    Create NSC
+
+[33mcommit 3bf6c05013948089fbb75e262c7ede718852746e[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Wed Jan 6 18:30:04 2021 +0700
+
+    Add MiniNavbar
+
+[33mcommit 72f42ee72b84a870bf2ead2235363a8ae197f349[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Wed Jan 6 01:34:26 2021 +0700
+
+    edit navbar
+
+[33mcommit d7ca24b9270b088430fc8f88a0d1bf23eb9c55a2[m
+Author: Pubadee Klinocha <poom9091@hotmail.com>
+Date:   Tue Jan 5 01:13:25 2021 +0700
+
+    Create Title and NavBar
+
+[33mcommit 892ff670f79569c4bad9ee9098cc2a447550ca61[m
+Author: Pubadee Klinocha <poom9091@hotmail.com>
+Date:   Mon Jan 4 11:36:05 2021 +0700
+
+    Add Tailwind
+
+[33mcommit eadb4a88ff1ce70ba3f46b07fc3f20e7b14bc8c4[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Mon Jan 4 10:38:28 2021 +0700
+
+    add Router
+
+[33mcommit 3e233613f0573da8d5075ccd900718ccb0a9486d[m
+Author: poom9091 <poom90914@gmail.com>
+Date:   Mon Jan 4 10:14:59 2021 +0700
+
+    init

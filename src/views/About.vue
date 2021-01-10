@@ -1,36 +1,62 @@
 <template>
   <div class=" bg-darkblue-cos">
-    <div class="w-screen h-full  md:w-4/6 bg-hover-icon mx-auto pt-20 md:pt-36 px-12 flex flex-col space-y-5">
-      <div>
-        <div class="h2">
-          ABOUT ME
-        </div>
+    <transition name ="slide-Down" >
+      <div v-if="show" class="w-screen h-full  md:w-4/6 mx-auto pt-20 md:pt-28 px-12 flex flex-col space-y-5">
         <div>
+          <div class="h2">
+            ABOUT ME
+          </div>
+          <ME/>
         </div>
-        <div class=" text-white  text-xl">
-          My name is Pubadee Klinocha , a 3rd year student from King Mongkut's University of Technology North Bangkok,<br>
-          I'm majoring in Information Technology , I'm interested in Network , Web Programing , Devops , Ethical Hacking 
+        <div class="flex flex-col  pb-20 lg:flex-row">
+              <Education class="pb-8" />
+              <div class="flex flex-col space-y-4">
+                <Coursework/>
+                <ADDITIONALSKILLS/>
+              </div>
         </div>
       </div>
-        <div class="flex flex-row">
-            <Education/>
-            <Coursework/>
-      </div>
-    </div>
+    </transition>
   </div>
 </template>
 
 <script>
 import Education from '../components/AboutMe/EDUCATION.vue'
 import Coursework from '../components/AboutMe/Coursework.vue'
+import ADDITIONALSKILLS from '../components/AboutMe/ADDITIONALSKILLS.vue'
+import ME from '../components/AboutMe/Me.vue'
 export default {
   components:{
     Education,
-    Coursework
-  }
+    Coursework,
+    ADDITIONALSKILLS,
+    ME
+  },
+  data(){
+    return{
+      show:false,
+    }
+  },
+  mounted(){
+    this.show=true
+  },
+  
+
 }
 </script>
 
 <style>
+ .slide-Down-enter-active {
+        transition: all .8s ease;
+  }
+  .slide-Down-leave-active {
+        transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-Down-enter, .slide-Down-leave-to  {
+        transform: translatey(-10px);
+        opacity: 0;
+  }
 
+
+  
 </style>

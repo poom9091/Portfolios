@@ -3,7 +3,7 @@
             <p class=" h2">
               EDUCATION
             </p>
-            <div class="relative border-yellow-cos bg  border-l-8 max-h-max h-auto py-16 px-10 ">
+            <div class="relative border-yellow-cos bg  border-l-4 max-h-max h-auto py-16 px-10 ">
               <div class=" absolute  top-0 left-0 " >
                   <p class="bg-yellow-cos rounded-r-lg  max-w-max w-auto px-4 py-1 text-white ">Present</p>
               </div>
@@ -15,8 +15,8 @@
                   <p class="bg-yellow-cos rounded-r-lg  max-w-max w-auto px-4 py-1 text-white ">Jul 2018</p>
               </div>
             </div>
-            <div class="h-16 border-yellow-cos bg  border-l-8 border-dashed"/>
-            <div class="relative border-yellow-cos bg  border-l-8 max-h-max h-auto py-16 px-10 ">
+            <div class="h-16 border-yellow-cos bg  border-l-4 border-dashed"/>
+            <div class="relative border-yellow-cos bg  border-l-4 max-h-max h-auto py-16 px-10 ">
               <div class=" absolute  top-0 left-0 " >
                   <p class="bg-yellow-cos rounded-r-lg  max-w-max w-auto px-4 py-1 text-white ">Mar 2018</p>
               </div>

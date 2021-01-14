@@ -2,7 +2,7 @@
     <div  class="bg-darkblue-cos h-full ">
     <transition name ="slide-Down" >
       <div v-if="show" class="w-screen h-full  md:w-5/6 mx-auto pt-20 md:pt-28 px-12 flex flex-col space-y-5">
-        <div class="h2 text-6xl  border-white border-b-8 pb-6">
+        <div class="h2 text-6xl  border-white border-b-8 pb-6 uppercase">
           Experience
         </div>
         <titleEX/>

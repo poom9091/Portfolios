@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style>
-    .slide-R-enter-active {
+  .slide-R-enter-active {
         transition: all .8s ease;
         transition-delay: 250ms;
   }

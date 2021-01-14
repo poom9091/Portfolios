@@ -3,7 +3,7 @@
     <transition name ="slide-Down" >
       <div v-if="show" class="w-screen h-full  md:w-4/6 mx-auto pt-20 md:pt-28 px-12 flex flex-col space-y-5">
         <div>
-          <div class="h2">
+          <div class="h2 border-white border-b-8 pb-4">
             ABOUT ME
           </div>
           <ME/>

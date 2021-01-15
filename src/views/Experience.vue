@@ -1,11 +1,11 @@
 <template>
-    <div  class="bg-darkblue-cos h-full ">
+    <div  class="bg-darkblue-cos  ">
     <transition name ="slide-Down" >
-      <div v-if="show" class="w-screen h-full  md:w-5/6 mx-auto pt-20 md:pt-28 px-12 flex flex-col space-y-5">
-        <div class="h2 text-6xl  border-white border-b-8 pb-6 uppercase">
+      <div v-if="show" class=" h-full  md:w-5/6 mx-auto pt-20 md:pt-28 px-2 md:px-12 flex flex-col space-y-5">
+        <div class="h2 text-4xl md:text-6xl  border-white border-b-8 pb-6 uppercase">
           Experience
         </div>
-        <titleEX/>
+        <titleEX />
       </div>
     </transition>
     </div>

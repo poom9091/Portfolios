@@ -1,12 +1,12 @@
 <template>
    <div class="bg-darkblue-cos">
    <transition name ="slide-fade" >
-      <div v-if="show" class="  flex  flex-col lg:flex-row ">
-         <div  class="w-screen h-screen  md:w-5/6 mx-auto pt-20 pb-10 md:pt-28 px-12 flex flex-col justify-around ">
+      <div v-if="show" class=" flex  flex-col lg:flex-row ">
+         <div  class="h-screen  md:w-5/6 mx-auto pt-20 pb-10 md:pt-28 px-12 flex flex-col justify-around ">
             <div class="h2 text-5xl  border-white border-b-8 pb-6 uppercase">
                Contact
             </div>
-            <div class=" space-y-2">
+            <div class=" space-y-2 ml-10 ">
                <div class="flex items-center hover:bg-hover-icon max-w-max w-auto p-2 rounded-xl">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="fill-current text-yellow-400 h-10">
                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -90,7 +90,7 @@ export default {
         transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
     }
     .slide-fade-enter, .slide-fade-leave-to  {
-        transform: translateX(10px);
+        transform: translateX(-10px);
         opacity: 0;
     }
 </style>

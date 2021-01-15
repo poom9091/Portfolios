@@ -1,10 +1,12 @@
 <template>
         <div class=" flex justify-around items-center flex-col h-screen ">
-          <button class="hover-Navbar  button-menu hover-Navbar " v-for="(list,name) in lists " :key="name" @click="toLink(list)" >
-            <div class="font-menu transform rotate-90">
+
+            <button 
+              v-for="(list,name) in lists " :key="name" @click="toLink(list)"
+              class="font-menu transform rotate-90 button-menu hover-Navbar  hover-Navbar max-w-max w-auto max-h-max h-auto">
                 {{name}}
-            </div>
-          </button>
+            </button>
+          
         </div>
 </template>
 

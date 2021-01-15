@@ -37,7 +37,7 @@ export default {
       },
    methods:{
       toLink(link) {
-      window.location.href = link;
+        window.location.href = link;
     },
    }
 }

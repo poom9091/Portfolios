@@ -7,6 +7,28 @@ export default new Vuex.Store({
   state: {
     datas:[
       {
+        id:'Devops',
+        name:'DevSecOps Transformation & Technologies',
+        date:'March 2021',
+        link:'',
+        slide:'slide-L',
+        list_imgs:[
+              {img:require('../assets/cer/Devops_cer.jpg')},
+        ],
+        texts : ['- Certificate DevSecOps Transformation & Technologies from Skooldio '],
+      },
+      {
+        id:'Docker',
+        name:'Introduction to Docker',
+        date:'March 2021',
+        link:'',
+        slide:'slide-R',
+        list_imgs:[
+              {img:require('../assets/cer/Docker_cer.jpg')},
+        ],
+        texts : ['- Certificate Introduction to Docker from Skooldio '],
+    },
+      {
           id:'Python',
           name:'2nd generation Python Programming',
           date:'July 2019',
@@ -19,6 +41,7 @@ export default new Vuex.Store({
           ],
           texts : ['- Teacher Assistant ','- Educated about students in python programming and how to use library PyGame.'],
       },
+
      
       {
           id:'OpenHouse',
@@ -89,8 +112,8 @@ export default new Vuex.Store({
               {img:require('../assets/Intern/Intern_3.jpg')}
           ],
           name_buttom:'YouTube',
-        
-      }
+      },
+      
     ]
   },
 
